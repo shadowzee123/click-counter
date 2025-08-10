@@ -1,0 +1,48 @@
+.counter-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+.count {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.decrease {
+  background-color: #dc3545;
+}
+
+.decrease:hover {
+  background-color: #b02a37;
+}
+
+.increase {
+  background-color: #007bff;
+}
+
+.increase:hover {
+  background-color: #0056b3;
+}
